@@ -38,3 +38,45 @@ section * {
 .space-between{
     justify-content: space-between;
 }
+.btn{
+    cursor: auto;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 3px;
+    line-height: 1.4;
+}
+.btn-default{
+    color:white;
+    background-color: #faa541;
+}
+.btn-primary{
+    color: white;
+    background-color: #364147;
+}
+.form-control{
+    display: block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #a0a0a0;
+    color: #8598a2;
+    line-height: 1.4;
+}
+.text_light{
+    font-size: 30px;
+    color: #a0a0a0
+}
+.text_secondary{
+    font-size: 30px;
+    color: #faa541
+}
+.text_primary{
+    font-size: 16px;
+    color: #364147
+}
