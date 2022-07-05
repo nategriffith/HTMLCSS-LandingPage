@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 1170px;
 }
 
-section * {
+section{
     display: flex;
 }
 
@@ -39,8 +39,8 @@ section * {
     justify-content: space-between;
 }
 .btn{
-    cursor: auto;
-    border: none;
+    cursor: pointer;
+    border: 0;
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 12px;
@@ -68,15 +68,15 @@ section * {
     color: #8598a2;
     line-height: 1.4;
 }
-.text_light{
+.text-light{
     font-size: 30px;
     color: #a0a0a0
 }
-.text_secondary{
+.text-secondary{
     font-size: 30px;
     color: #faa541
 }
-.text_primary{
+.text-primary{
     font-size: 16px;
     color: #364147
 }
